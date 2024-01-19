@@ -1,3 +1,18 @@
+
+
+m_idotedu: m_idotedu {
+  label = "m_idotedu";
+  #binding-cells = <0>;
+  bindings = <&kp PERIOD>, <&kp I>, <&kp C>, <&kp P>, <&kp S>, <&kp R>, <&kp PERIOD>, <&kp U>, <&kp M>, <&kp I>, <&kp C>, <&kp H>, <&kp PERIOD>, <&kp E>, <&kp D>, <&kp U>;
+};
+
+m_dogcheese: m_dogcheese{
+  compatible = "zmk,behavior-macro";
+  label = "m_dogcheese";
+  #binding-cells = <0>;
+  bindings = <&kp AT>, <&kp D>, <&kp O>, <&kp G>, <&kp C>, <&kp H>, <&kp E>, <&kp E>, <&kp S>, <&kp E>, <&kp PERIOD>, <&kp N>, <&kp E>, <&kp T>;
+};
+
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
@@ -34,3 +49,7 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
+
+
+
+
